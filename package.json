@@ -1,0 +1,28 @@
+{
+  "name": "athletedb",
+  "version": "1.0.0",
+  "description": "A simple MEAN stack app with an athlete profile submission form",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itspanicky/AthleteDB.git"
+  },
+  "author": "Nicky Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itspanicky/AthleteDB/issues"
+  },
+  "homepage": "https://github.com/itspanicky/AthleteDB#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
