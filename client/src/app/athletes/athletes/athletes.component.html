@@ -1,0 +1,8 @@
+<ul class="athletes">
+  <li *ngFor="let athlete of athletes">
+    <a routerLink="/detail/{{athlete.id}}">
+      <span class="badge">{{athlete.id}}</span> {{athlete.name}}
+    </a>
+    <!-- <button class="delete" title="delete athlete" (click)="delete(athlete)">x</button> -->
+  </li>
+</ul>

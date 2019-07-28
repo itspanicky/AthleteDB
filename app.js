@@ -1,10 +1,12 @@
 const mongoose = require('mongoose');
 const express = require("express");
+const cors = require('cors');
 const app = express();
 const db = require ('./config/keys').mongoURI;
 
 const athletes = require('./routes/api/athletes');
 
+app.use(cors());
 app.use(express.json());
 app.use('/api/athletes', athletes);
 

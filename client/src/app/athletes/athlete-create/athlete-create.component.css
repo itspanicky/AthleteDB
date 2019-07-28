@@ -1,0 +1,25 @@
+.form-title {
+  width: 300px;
+  padding: 10px 100px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 300px;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.form-group {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-input {
+  border-radius: 2px;
+  outline: none;
+}
