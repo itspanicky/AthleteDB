@@ -12,13 +12,13 @@ export class AthleteService {
   url = '/api/athletes/add';
   constructor(private http: HttpClient) { }
 
-  createAthlete(athlete) {
-    return this.http.post<any>(this.url, athlete);
-  }
+  // createAthlete(athlete) {
+     // return this.http.post<any>(this.url, athlete);
+  // }
 
-  getAthletes(): Observable<Athlete[]> {
-    return this.http.get<Athlete[]>(this.url);
-  }
+  // getAthletes(): Observable<Athlete[]> {
+  //   // return this.http.get<Athlete[]>(this.url);
+  // }
 
   // createAthlete(athlete: Athlete): Observable<Athlete> {
   //   return this.http.post<Athlete>(this.url, athlete, this.httpOptions).pipe(

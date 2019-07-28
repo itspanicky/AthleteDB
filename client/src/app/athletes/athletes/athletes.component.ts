@@ -13,12 +13,12 @@ export class AthletesComponent implements OnInit {
   constructor(private athleteService: AthleteService) { }
 
   ngOnInit() {
-    this.getAthletes();
+    // this.getAthletes();
   }
 
-  getAthletes(): void {
-    this.athleteService.getAthletes()
-      .subscribe(athletes => this.athletes = athletes);
-  }
+  // getAthletes(): void {
+  //   this.athleteService.getAthletes()
+  //     .subscribe(athletes => this.athletes = athletes);
+  // }
 
 }

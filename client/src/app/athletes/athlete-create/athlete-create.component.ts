@@ -33,17 +33,17 @@ export class AthleteCreateComponent implements OnInit {
       sport: this.sport
     };
 
-    if (!this.validateService.validateAthlete(athlete)) {
-      this.flashMessage.show('Please fill in all fields', {cssClass: 'alert-danger', timeout: 3000});
-      return false;
-    } else {
-      this.athleteService.createAthlete(athlete)
-      // .subscribe(athlete => this.athletes.push(athlete));
-        .subscribe(
-          data => console.log('Success', data),
-          error => console.log('Error', error)
-        );
-    }
+    // if (!this.validateService.validateAthlete(athlete)) {
+    //   this.flashMessage.show('Please fill in all fields', {cssClass: 'alert-danger', timeout: 3000});
+    //   return false;
+    // } else {
+    //   this.athleteService.createAthlete(athlete)
+    //   // .subscribe(athlete => this.athletes.push(athlete));
+    //     .subscribe(
+    //       data => console.log('Success', data),
+    //       error => console.log('Error', error)
+    //     );
+    // }
   }
 
 
